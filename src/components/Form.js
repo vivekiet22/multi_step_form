@@ -56,11 +56,13 @@ function Form(props) {
           <button style={{width:"100%",backgroundColor:"rgb(100,50,205)"}}
             onClick={() => {
               if (page === FormTitles.length - 1) {
-                alert("Badhai Ho :)");
+                alert("Welcome");
                 console.log(formData);
               } else {
+                
+                }
                 setPage((currPage) => currPage + 1);
-              }
+              
             }}
           >
             {page === FormTitles.length - 1 ? "Launch Eden" : "Create Workspace"}

@@ -79,8 +79,8 @@ body {
   margin: 5px;
   width: 95%;
   height: 40px;
-  padding-left: 3px;
-  font-size: 20px;
+  padding-left: 10px;
+  font-size: 18px;
 }
 
 .personal-info-container {
@@ -96,9 +96,9 @@ body {
   margin: 5px;
   width: 95%;
   height: 40px;
-  padding-left: 3px;
+  padding-left: 10px;
   /* padding-right: 5px; */
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* PROGRESS BAR */

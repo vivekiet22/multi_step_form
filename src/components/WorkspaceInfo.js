@@ -6,7 +6,7 @@ function WorkspaceInfo({ formData, setFormData }) {
       <p className="name-placement"><b>Workspace Name</b></p>
       <input
         type="text"
-        placeholder="First Name..."
+        placeholder="Eden"
         value={formData.workspaceName}
         onChange={(e) => {
           setFormData({ ...formData, workspaceName: e.target.value });
@@ -15,7 +15,7 @@ function WorkspaceInfo({ formData, setFormData }) {
       <p className="name-placement"><b>Workspace URL</b></p>
       <input
         type="text"
-        placeholder="Last Name..."
+        placeholder="Example"
         value={formData.workspaceUrl}
         onChange={(e) => {
           setFormData({ ...formData, workspaceUrl: e.target.value });

@@ -6,6 +6,7 @@ function SignUpInfo({ formData, setFormData }) {
       <p className="name-placement"><b>Full Name</b></p>
       <input
         type="text"
+        id="fullname"
         placeholder="Vivek Maddeshiya"
         value={formData.fullName}
         onChange={(event) =>
